@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
           alt="Hero background"
         />
         <div className="relative z-10 flex mb-[-72px] flex-col items-stretch max-md:max-w-full max-md:mb-2.5">
-<nav className="bg-[rgba(0,63,19,1)] flex w-full items-center text-white justify-between p-8 rounded-[120px] max-md:flex-col max-md:gap-4 max-md:px-5">
+<nav className="sticky top-0 z-50 bg-[rgba(0,63,19,1)] flex w-full items-center text-white justify-between p-8 rounded-[120px] max-md:flex-col max-md:gap-4 max-md:px-5">
   {/* Logo kiri */}
   <div className="flex items-center gap-3 text-xl font-bold whitespace-nowrap">
     <img
