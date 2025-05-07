@@ -11,36 +11,34 @@ const Hero: React.FC = () => {
           alt="Hero background"
         />
         <div className="relative z-10 flex mb-[-72px] flex-col items-stretch max-md:max-w-full max-md:mb-2.5">
-          <nav className="bg-[rgba(0,63,19,1)] flex w-full flex-col items-stretch text-white justify-center p-8 rounded-[120px] max-md:max-w-full max-md:px-5">
-            <div className="flex w-full items-center flex-wrap max-md:max-w-full">
-              <div className="self-stretch flex items-center gap-3 text-xl font-bold whitespace-nowrap my-auto">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets/e09383f57571488194f4ca36ac0c1fc4/f61cd48a34aa4e7609bbbb609bdf1a91028c005a?placeholderIfAbsent=true"
-                  className="aspect-[1] object-contain w-11 self-stretch shrink-0 my-auto"
-                  alt="QiblaTrip logo"
-                />
-                <div className="self-stretch my-auto">
-                  QIBLATRIPSSS
-                </div>
-              </div>
-              <div className="self-stretch flex min-w-60 items-center gap-[40px_45px] text-base tracking-[0.3px] flex-wrap flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
-                <div className="self-stretch flex min-w-60 items-center gap-6 font-normal my-auto">
-                  <a href="#" className="self-stretch my-auto hover:text-gray-200 transition-colors">
-                    Upcoming Trip
-                  </a>
-                  <a href="#" className="self-stretch my-auto hover:text-gray-200 transition-colors">
-                    Gallery
-                  </a>
-                  <a href="#" className="self-stretch my-auto hover:text-gray-200 transition-colors">
-                    About
-                  </a>
-                </div>
-                <button className="self-stretch border gap-2.5 font-semibold my-auto px-6 py-3 rounded-3xl border-white border-solid hover:bg-white hover:text-[rgba(0,63,19,1)] transition-colors max-md:px-5">
-                  My Booking
-                </button>
-              </div>
-            </div>
-          </nav>
+<nav className="bg-[rgba(0,63,19,1)] flex w-full items-center text-white justify-between p-8 rounded-[120px] max-md:flex-col max-md:gap-4 max-md:px-5">
+  {/* Logo kiri */}
+  <div className="flex items-center gap-3 text-xl font-bold whitespace-nowrap">
+    <img
+      src="https://cdn.builder.io/api/v1/image/assets/e09383f57571488194f4ca36ac0c1fc4/f61cd48a34aa4e7609bbbb609bdf1a91028c005a?placeholderIfAbsent=true"
+      className="aspect-[1] object-contain w-11"
+      alt="QiblaTrip logo"
+    />
+    <div>QIBLATRIP</div>
+  </div>
+
+  {/* Menu kanan */}
+  <div className="flex items-center gap-8 text-base tracking-[0.3px] ml-auto max-md:flex-wrap">
+    <a href="#" className="hover:text-gray-200 transition-colors">
+      Upcoming Trip
+    </a>
+    <a href="#" className="hover:text-gray-200 transition-colors">
+      Gallery
+    </a>
+    <a href="#" className="hover:text-gray-200 transition-colors">
+      About
+    </a>
+    <button className="border font-semibold px-6 py-3 rounded-3xl border-white border-solid hover:bg-white hover:text-[rgba(0,63,19,1)] transition-colors max-md:px-5">
+      My Booking
+    </button>
+  </div>
+</nav>
+
           <div className="self-center flex w-[950px] max-w-full flex-col items-center mt-9">
             <div className="flex w-[695px] max-w-full flex-col items-stretch">
               <div className="flex w-full flex-col items-stretch text-black text-center max-md:max-w-full">
