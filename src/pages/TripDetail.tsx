@@ -1,9 +1,7 @@
-
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { fetchTripWithDetails } from '@/services/tripService';
 import { Trip, Benefit, Flight, Hotel, Itinerary } from '@/types';
-import { Link } from 'react-router-dom';
 
 const TripDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
