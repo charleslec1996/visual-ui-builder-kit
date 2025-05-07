@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
                   alt="QiblaTrip logo"
                 />
                 <div className="self-stretch my-auto">
-                  QIBLATRIP
+                  QIBLATRIPSSS
                 </div>
               </div>
               <div className="self-stretch flex min-w-60 items-center gap-[40px_45px] text-base tracking-[0.3px] flex-wrap flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
